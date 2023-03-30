@@ -4,52 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>명함 만들기</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
         #card{
             background-color: black;
-            width: 100%;
-            height: 100%;
+            width: 600px;
+            height: 300px;
+            justify-content: center; 
         }
         #container{
-            color: white;
-            background-color: black;
+            justify-content: center;  
+            align-items: center;
             height: 100vh;
-            width: 100%;
+            width: 100%;   
+            
         }
-        #change{
-            background-color: black;
-            flex-direction: row-reverse;
-        }
+       
     </style>
 </head>
 <body>
     <div>
-        <div id="card">            
-            <img src ="lion.png">
-        </div> 
-        <div id="continer">
-            <h1>최동석                    
-                <li>
-                    행동으로 보여주는 개발
-                </li>
-                <li>
-                    서경대학교 멋쟁이사자처럼
-                </li> 
-                <li>
-                    010-9697-2615
-                </li>
-                <li>
-                    aoa6317@skuniv.ac.kr
-                </li>
-            </h1>
-            <div id = "change">                
-                <img src = "lion2.png">
+        <div class = "f">
+            <div>
+                <img src ="lion.png" width="600px"height="300px">
+            <div>
+                <div class = "b">
+                    <div>
+                        <h1>최동석</h1>
+                            <li>행동으로 보여주는 개발자</li>
+                            <li>서경대학교</li>
+                            <li>010-9697-2615</li>
+                            <li>aoa6317@skuniv.ac.kr</li>
+                    </div>
+                    <div>
+                        <img src = "lion2.png" width="200">
+                    </div>
+                </div>
             </div>
+            </div>
+
         </div>
-    </div>
-   
-    
+    </div> 
     
 </body>
 </html>
